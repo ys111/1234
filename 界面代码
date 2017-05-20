@@ -1,0 +1,12 @@
+import javax.swing.*;
+import java.awt.event.*;
+public class HelloWorldSwing{
+public static void main(String[] args){
+JFrame frame=new JFrame("HelloWorldSwing");
+final JLable lable=new JLabel("Hello World!");
+frame.getContentPane().add(label);
+frame.setDefaultCloseOperation(JFrame.EXIT-ON-CLOSE);
+frame.setSize(200,70);
+frame.setVisible(true);
+}
+}
